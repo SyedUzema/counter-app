@@ -1,0 +1,59 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(12, 10, 10, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+.counter-logo {
+    width: 150px; 
+    height: auto;
+    display: block;
+    margin: 100 auto 20px; 
+}
+.counter-title {
+    font-family: 'serif';
+    font-size: 3rem;
+    margin-bottom: 1px;
+    color: #f3e9e9;
+}
+
+.count {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ece2e2;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.increment {
+    background-color: #4caf50;
+    color: white;
+}
+
+.decrement {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset {
+    background-color: #2196f3;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
